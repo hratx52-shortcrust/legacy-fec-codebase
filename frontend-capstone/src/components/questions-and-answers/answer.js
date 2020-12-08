@@ -46,7 +46,7 @@ const Answer = (props) => {
               })}
               <Card.Text>
               <div className='helpful-wrapper'>
-                By: {by}, {date} | 
+                By: {by}, {date} |
                 <Helpful id={answer.answer_id} widget='answer' helpfulCount={answer.helpfulness}/>
                 |<Report id={answer.answer_id} widget='answer'/>
               </div>
